@@ -1,0 +1,33 @@
+The Window Object:
+
+The Window object is a global object in the browser's JavaScript environment
+It represents the browser window or tab and serves as the entry point for interacting with the browser.
+Almost everything in a browser's environment is a property of the Window object, making it a powerful entity.
+
+
+Browser Interaction: 
+
+               The Window object facilitates actions such as opening new browser windows, navigating to different URLs, and controlling the appearance of the browser.
+
+
+              window.open("https://www.example.com");
+
+
+
+The Document Object:
+
+The Document object represents the HTML document loaded in the browser window. 
+ It is a property of the Window object, and through it, developers can access and manipulate the content of a web page dynamically.
+
+Event Handling: 
+       
+              The Document object allows developers to attach event listeners to HTML elements, enabling the execution of JavaScript code in response to user actions.
+
+
+                         // Add a click event listener to a button
+                         var myButton = document.getElementById("myButton");
+                           myButton.addEventListener("click", function() {
+                            alert("Button clicked!");
+                         });
+      While the Window and Document objects are distinct entities, they work in tandem to create dynamic web pages. 
+The Window object provides the environment and controls the overall behavior of the browser, while the Document object allows developers to manipulate the content within that environment.
